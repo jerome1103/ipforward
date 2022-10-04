@@ -50,7 +50,7 @@
             // portproxy
             // 
             this.portproxy.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.portproxy.Location = new System.Drawing.Point(40, 147);
+            this.portproxy.Location = new System.Drawing.Point(27, 144);
             this.portproxy.Name = "portproxy";
             this.portproxy.Size = new System.Drawing.Size(300, 30);
             this.portproxy.TabIndex = 1;
@@ -61,27 +61,26 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(40, 116);
+            this.textBox1.Location = new System.Drawing.Point(27, 113);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(300, 22);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "121.254.75.117";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(480, 190);
+            this.label1.Location = new System.Drawing.Point(240, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 12);
+            this.label1.Size = new System.Drawing.Size(89, 12);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Author by Huang";
+            this.label1.Text = "Author by Jerome";
             // 
             // guide_labe_title
             // 
             this.guide_labe_title.AutoSize = true;
             this.guide_labe_title.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.guide_labe_title.Location = new System.Drawing.Point(36, 89);
+            this.guide_labe_title.Location = new System.Drawing.Point(23, 86);
             this.guide_labe_title.Name = "guide_labe_title";
             this.guide_labe_title.Size = new System.Drawing.Size(90, 21);
             this.guide_labe_title.TabIndex = 4;
@@ -91,7 +90,7 @@
             // 
             this.guide_labe_sub.AutoSize = true;
             this.guide_labe_sub.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.guide_labe_sub.Location = new System.Drawing.Point(116, 88);
+            this.guide_labe_sub.Location = new System.Drawing.Point(103, 85);
             this.guide_labe_sub.Name = "guide_labe_sub";
             this.guide_labe_sub.Size = new System.Drawing.Size(24, 21);
             this.guide_labe_sub.TabIndex = 5;
@@ -148,7 +147,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(37, 185);
+            this.label3.Location = new System.Drawing.Point(24, 182);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(164, 17);
             this.label3.TabIndex = 11;
@@ -157,11 +156,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(511, 15);
+            this.label4.Location = new System.Drawing.Point(271, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 12);
             this.label4.TabIndex = 12;
-            this.label4.Text = "版本:1.1.0";
+            this.label4.Text = "版本:1.2.0";
             // 
             // openFileDialog1
             // 
@@ -171,7 +170,7 @@
             // 
             this.loopbackAdapter_button.Enabled = false;
             this.loopbackAdapter_button.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.loopbackAdapter_button.Location = new System.Drawing.Point(40, 40);
+            this.loopbackAdapter_button.Location = new System.Drawing.Point(27, 37);
             this.loopbackAdapter_button.Name = "loopbackAdapter_button";
             this.loopbackAdapter_button.Size = new System.Drawing.Size(300, 30);
             this.loopbackAdapter_button.TabIndex = 13;
@@ -183,7 +182,7 @@
             // 
             this.NIC_labe_title.AutoSize = true;
             this.NIC_labe_title.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NIC_labe_title.Location = new System.Drawing.Point(36, 9);
+            this.NIC_labe_title.Location = new System.Drawing.Point(23, 6);
             this.NIC_labe_title.Name = "NIC_labe_title";
             this.NIC_labe_title.Size = new System.Drawing.Size(90, 21);
             this.NIC_labe_title.TabIndex = 14;
@@ -193,7 +192,7 @@
             // 
             this.NIC_labe_sub.AutoSize = true;
             this.NIC_labe_sub.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.NIC_labe_sub.Location = new System.Drawing.Point(116, 9);
+            this.NIC_labe_sub.Location = new System.Drawing.Point(103, 6);
             this.NIC_labe_sub.Name = "NIC_labe_sub";
             this.NIC_labe_sub.Size = new System.Drawing.Size(24, 21);
             this.NIC_labe_sub.TabIndex = 15;
@@ -204,7 +203,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(604, 211);
+            this.ClientSize = new System.Drawing.Size(365, 211);
             this.Controls.Add(this.NIC_labe_sub);
             this.Controls.Add(this.NIC_labe_title);
             this.Controls.Add(this.loopbackAdapter_button);
